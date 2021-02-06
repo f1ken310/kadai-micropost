@@ -17,5 +17,6 @@
       <li class="nav-item"><a href="#" class="nav-link">Followers</a></li>
     </ul>
     <%= render 'microposts/microposts', microposts: @microposts %>
+     <%= render 'favorites/favorites_button', micropost_id: @micropost_id  %>
   </div>
 </div>
